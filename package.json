@@ -4,7 +4,7 @@
   "description": "Add `@base` annotations to the rules",
   "main": "index.js",
   "scripts": {
-    "test": ""
+    "test": "tape test.js"
   },
   "bin": {
     "css-utilify": "cli.js"
@@ -13,9 +13,17 @@
     "type": "git",
     "url": "git://github.com/morishitter/css-utilify/git"
   },
-  "keywords": ["css","atcss","utilify"],
+  "keywords": [
+    "css",
+    "atcss",
+    "utilify"
+  ],
   "author": "Masaaki Morishita",
   "license": "MIT",
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "postcss": "^4.1.11"
+  },
+  "devDependencies": {
+    "tape": "^4.0.0"
+  }
 }
