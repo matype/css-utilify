@@ -1,6 +1,6 @@
 {
   "name": "css-utilify",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Add `@base` annotations to the rules",
   "main": "index.js",
   "scripts": {
