@@ -16,11 +16,13 @@
   "keywords": [
     "css",
     "atcss",
-    "utilify"
+    "utilify",
+    "postcss-plugin"
   ],
   "author": "Masaaki Morishita",
   "license": "MIT",
   "dependencies": {
+    "minimist": "^1.1.1",
     "postcss": "^4.1.11"
   },
   "devDependencies": {
