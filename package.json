@@ -1,0 +1,21 @@
+{
+  "name": "css-utilify",
+  "version": "0.0.1",
+  "description": "Add `@base` annotations to the rules",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "bin": {
+    "css-utilify": "cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/morishitter/css-utilify/git"
+  },
+  "keywords": ["css","atcss","utilify"],
+  "author": "Masaaki Morishita",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
