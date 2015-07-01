@@ -3,7 +3,9 @@
   float: left;
 }
 
-.pdt-10 {
-  /* @base */
-  padding-top: 10px;
+@media (min-width: 480px) {
+  .col {
+    /* @base */
+    width: 50%;
+  }
 }
